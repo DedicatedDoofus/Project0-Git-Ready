@@ -36,6 +36,12 @@ public class BirthDateApp {
                 return "invalid";
         }
     }
+    /**
+     * Returns the name of the month corresponding to the given integer values
+     * 
+     * @param month an intger representing the month
+     * @return the name of the month as a String
+     */
 
     public static String getMonthName (int month) {
         switch (month) {
